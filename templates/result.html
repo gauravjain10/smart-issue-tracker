@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<style>
+p1 {
+  color: green;
+  text-indent: 30px;
+}
+</style>
+
+  <title>Answers</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='result.css')}}">
+</head>
+
+<body>
+<h1>Smart Issue Tracker</h1>
+<h2> Q. {{ Question }}</h2>
+<h3>Relavant Q/A to your query</h3>
+<p>
+<b>Question 1. </b>
+<b>{{ Q1 }}?</b>
+<br>
+<br>
+{{ A1 }}
+<br>
+<p1 style="text-align:left" >Score:{{ S1 }} </p1>
+</p> 
+<p>
+<b>Question 2. </b>
+<b>{{ Q2 }}?</b>
+<br>
+<br>
+{{ A2 }}
+<br>
+<p1 style="text-align:left" >Score:{{ S2 }} </p1>
+</p> 
+<p>
+<b>Question 3. </b>
+<b>{{ Q3 }}?</b>
+<br>
+<br>
+{{ A3 }}
+<br>
+<p1 style="text-align:left" >Score:{{ S3 }} </p1>
+</p> 
+ <button type="button" onclick="document.location='covid'" >Ask Covid question</button><br>
+ <button type="button" onclick="document.location='ehealthforumQAs'" >Ask Miscellaneous question</button><br><br>
+ <form action="/save_que" method="post">
+ <input type="submit" value="Not found suitable answer! Wanna ask from experts"> 
+ </form>
+ 
+</body>
+
+</html> 

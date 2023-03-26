@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='ehealthforumQAs.css')}}">
+<style>
+/* body { background-color:DodgerBlue; } */
+/*h2 { color:Cornsilk; }
+label { color:Cornsilk; }*/
+textarea { font-size: 18px; }
+input { background-color: rgb(184, 193, 207); }
+</style>
+</head>
+
+<body>
+
+<h2>Ask any query about Your Health</h2>
+
+<form action="/ehealthforumQAs_answer" method = "POST">
+  <label for="fname">Question:</label><br>
+  <textarea name="query" id='q' required=True cols="80 rows="5"></textarea><br><br>
+  <input type="submit" value="Submit"><br><br><br>
+</form> 
+
+
+</body>
+
+</html>

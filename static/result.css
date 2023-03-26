@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(228, 187, 164);
+}
+
+h1{
+    background-color: dodgerblue;
+    text-align:center
+}
+
+p {
+  padding: 30px;
+  font-family:verdana;
+}
+
+button {background-color:powderblue;}
+

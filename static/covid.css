@@ -1,0 +1,42 @@
+body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+
+  body{
+    background-color: cadetblue;
+    background-image: url("c3.jpg");
+    background-repeat: inherit;
+    background-size: cover;
+}
+
+.body img{
+    opacity: 0.5;
+}
+
+h2{
+    color: rgb(238, 231, 231);
+}
+
+label{
+    color: rgb(238, 231, 231);
+}
+
+textarea {
+    background: transparent;
+    color: transparent;
+    height: 100%;
+    resize: none;
+  }
+  
+  textarea:focus {
+    color: rgb(238, 231, 231);
+  }
+
+  ul {
+      color: rgb(184, 193, 207);
+      font-size: large;
+  }
+
+  h2{
+      color: rgb(184, 193, 207);
+  }

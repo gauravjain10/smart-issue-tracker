@@ -1,0 +1,18 @@
+  
+  h1{
+    background-color: gainsboro;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+  }
+  
+  body{
+      background-color: cadetblue;
+      background-image: url("h2.jpg");
+      background-repeat: inherit;
+      background-size: cover; 
+  }
+
+  pre{
+      font-size: large;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }

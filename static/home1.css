@@ -1,0 +1,66 @@
+body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: cadetblue;
+    background-image: url("h2.jpg");
+    background-repeat: inherit;
+    background-size: cover; 
+}
+  
+h1 {
+    text-align: center;
+    background-color: gainsboro;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+  }
+  
+h3 {
+  border:2px solid powderblue;
+  padding: 30px;
+  font-family:verdana;
+}
+
+button1 {
+  text-align:center;
+  padding: 10px;
+  position: absolute;
+  top: 20px;
+  right: 9px;  
+}
+
+button1:hover {
+  background-color: blue; /* Green */
+  color: white;
+}
+
+button2 {
+  text-align:center;
+  padding: 10px;
+  position: absolute;
+  top: 20px;
+  right: 80px; 
+}
+
+button2:hover {
+  background-color: red; /* Green */
+  color: white;
+}
+
+button3 {
+  display: block;
+  width: 50%;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: lightgray;
+  text-align:center;
+  padding: 10px;
+  
+  
+}
+
+button3:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+

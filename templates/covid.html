@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='covid.css')}}">
+<style>
+/* body { background-color:DodgerBlue; } */
+/*h2 { color:Cornsilk; }
+label { color:Cornsilk; }*/
+textarea { font-size: 18px; }
+input { background-color: rgb(184, 193, 207); }
+</style>
+</head>
+
+<body>
+
+<h2>Ask any query about COVID19</h2>
+
+<form action="/answer" method = "POST">
+  <label for="fname">Question:</label><br>
+  <textarea name="query" id='q' required=True cols="80 rows="5"></textarea><br><br>
+  <input type="submit" value="Submit"><br><br><br>
+</form> 
+
+<h2>Do You Know?</h2>
+
+<ul>
+  <li>Anosmia (loss of smell) is a symptom.</li>
+  <li>SARS-CoV-2 binds tightly to human cells.</li>
+  <li>Coronavirus can make babies seriously ill.</li>
+  <li>The COVID-19 virus can live on surfaces for days.</li>
+  <li>People who don’t have symptoms can spread the virus.</li>
+  <li>People with type A blood may be more susceptible to infection.</li>
+  <li>You may already have been infected.</li>
+  <li>Some people with COVID-19 have digestive symptoms.</li>
+  <li>Reinfection may be possible.</li>
+  <li>A global trial is searching for effective coronavirus treatment.</li>
+</ul>
+
+</body>
+
+</html>
